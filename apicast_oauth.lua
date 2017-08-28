@@ -25,7 +25,7 @@ end
 
 function _M:transform_credentials(credentials)
 
-  local url = 'http://a3748ded.ngrok.io/mock-auth-service'
+  local url = 'http://tc-idp.herokuapp.com/mock-auth-service'
 
   local http_client = http_ng.new{
     options = {
